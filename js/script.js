@@ -58,3 +58,21 @@ else{
 
 
 //----------------------------------------------------------------------------------
+
+//Ejercicio 5: Comparar Dos Números
+
+let num1 = parseInt(prompt ("ingresa el primer numero"))
+let num2 = parseInt(prompt ("ingresa em segundo numero"))
+if(num1>num2 ){
+console.log("el numero mayor es " + num1)
+}
+if(num2>num1 ){
+  console.log("el numero mayor es " + num2)
+  }
+
+else if (num1==num2){
+  console.log("los numeros son iguales")
+}
+
+//------------------------------------------------------------------------------------
+
