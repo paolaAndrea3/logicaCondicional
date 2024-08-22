@@ -171,5 +171,27 @@ if (adivinanzaUsuario === numeroAleatorio) {
     alert("Intenta de nuevo.");
 }
 
+//-----------------------------------------------------------------------------------
+
+//Ejercicio 11: Cálculo del Precio Final //
+
+let precioBase = parseFloat(prompt("Ingrese el precio base del producto:"));
+
+let descuento;
+
+if (precioBase > 500) {
+    descuento = precioBase * 0.15; 
+} else if (precioBase >= 300) {
+    descuento = precioBase * 0.10; 
+} else {
+    descuento = precioBase * 0.05; 
+}
+
+let precioFinal = precioBase - descuento;
+
+console.log("El precio final después del descuento es: " + precioFinal);
+
+
+
 
 //-----------------------------------------------------------------------------------
