@@ -221,5 +221,23 @@ else{
 
 }
 
+//-----------------------------------------------------------------------------------
+
+//Ejercicio 14: Determinar Horario del Día//
+let horaIngresadaUsuario = parseInt(prompt("inresa una hora de 0 a 23hrs"))
+
+if (horaIngresadaUsuario >= 6 && horaIngresadaUsuario<12) {
+  console.log("Buenos dias")
+}
+else if (horaIngresadaUsuario >= 12 && horaIngresadaUsuario <
+  18) {
+    console.log("Buenas tardes")
+
+}
+else if (horaIngresadaUsuario >=18 && horaIngresadaUsuario<=24 || horaIngresadaUsuario>=0 || horaIngresadaUsuario<=6) {
+  console.log("Buenas noches")
+ 
+}
+
 
 //-----------------------------------------------------------------------------------
