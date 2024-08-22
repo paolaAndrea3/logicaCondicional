@@ -40,3 +40,21 @@ else {
 }
 
 //--------------------------------------------------------------------------------
+
+
+//Ejercicio 4: Cálculo de Descuento//
+
+let totalDeCompra = parseFloat(prompt("ingresa el total de la compra "));
+
+if(totalDeCompra >100){
+ let descuento = totalDeCompra*10 / 100;
+ let descuentoFinal = totalDeCompra-descuento;
+ console.log("valor a pagar con descuento es " + descuentoFinal);
+}
+
+else{
+  console.log("el precio a pagar es "+ totalDeCompra)
+} 
+
+
+//----------------------------------------------------------------------------------
