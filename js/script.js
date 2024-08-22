@@ -158,3 +158,18 @@ else{
 
 //-----------------------------------------------------------------------------------
 
+
+//Ejercicio 10: Adivinar un Número //
+
+let numeroAleatorio = Math.floor(Math.random() * 10) + 1;
+
+let adivinanzaUsuario = parseInt(prompt("Adivina un número entre 1 y 10."));
+
+if (adivinanzaUsuario === numeroAleatorio) {
+    alert("¡Has acertado!");
+} else {
+    alert("Intenta de nuevo.");
+}
+
+
+//-----------------------------------------------------------------------------------
