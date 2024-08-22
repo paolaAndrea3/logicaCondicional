@@ -12,3 +12,18 @@ else {
 }
 
 //----------------------------------------------------------------------------
+
+
+//Ejercicio 2:  Número Positivo o Negativo//
+
+let numberUsuario = parseInt(prompt("ingrese un numero"));
+
+if (numberUsuario >= 0) {
+  console.log("El numero es positivo")
+}
+else {
+  console.log("El numero es negativo")
+
+}
+
+//-------------------------------------------------------------------------------
