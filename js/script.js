@@ -192,6 +192,20 @@ let precioFinal = precioBase - descuento;
 console.log("El precio final después del descuento es: " + precioFinal);
 
 
+//-----------------------------------------------------------------------------------
+
+//Ejercicio 12: Verificar el Año Bisiesto //
+let año = parseInt(prompt("Ingrese un año para verificar si es bisiesto:"));
+
+if (año % 4 === 0 && año % 100 !== 0) {
+    console.log(año + " es bisiesto.");
+} else if (año % 400 === 0) {
+    console.log(año + " es bisiesto.");
+} else {
+    console.log(año + " no es bisiesto.");
+}
+
+
 
 
 //-----------------------------------------------------------------------------------
