@@ -115,3 +115,24 @@ else if (notaEstudiante < 50) {
 }
 
 //-----------------------------------------------------------------------------------
+
+//Ejercicio 8: Elección de Menú//
+let menu = parseInt(prompt("elija una opcion de menu: 1-pizza  2-Hamburguesa  3-Tacos"))
+ 
+
+switch (menu) {
+  case 1:
+    console.log("Has escogido la Pizza");
+    break;
+  case 2:
+    console.log("Has escojido la Hamburguesa");
+    break;
+  case 3:
+    console.log("Has escojido los Tacos");
+    break;
+     Tacos;
+  default:
+    console.log("opcion no valida")
+    break;
+}
+//-----------------------------------------------------------------------------------
