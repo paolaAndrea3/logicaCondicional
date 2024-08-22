@@ -95,3 +95,23 @@ else if (edadParaClasificar >=65 ) {
 }
 
 //-----------------------------------------------------------------------------------
+
+//Ejercicio 7: Clasificación de Notas//
+
+
+let notaEstudiante = prompt("ingrese su nota de 0 al 100")
+ 
+if(notaEstudiante >= 90){
+console.log("Excelente")
+}
+else if (notaEstudiante >=70) {
+  console.log("Bueno ")
+}
+else if (notaEstudiante >= 50 ) {
+  console.log("Regular")
+}
+else if (notaEstudiante < 50) {
+  console.log("Insuficiente")
+}
+
+//-----------------------------------------------------------------------------------
