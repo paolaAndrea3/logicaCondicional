@@ -206,6 +206,20 @@ if (año % 4 === 0 && año % 100 !== 0) {
 }
 
 
+//-----------------------------------------------------------------------------------
+
+//Ejercicio 13: Autenticación de Usuario //
+
+let UsuarioAdm = prompt("Ingrese su nombre de usuario")
+let UsuarioCrontraseña = prompt("Ingrese su contraseña")
+
+if (UsuarioAdm == "admin" && UsuarioCrontraseña == "1234") {
+  console.log("Acceso consedido")
+}
+else{
+  console.log("Acceso denegado")
+
+}
 
 
 //-----------------------------------------------------------------------------------
