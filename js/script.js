@@ -136,3 +136,25 @@ switch (menu) {
     break;
 }
 //-----------------------------------------------------------------------------------
+
+//Ejercicio 9: Tipo de Triángulo //
+
+
+let ladoUno = parseInt(prompt("ingresa lado uno del triangulo"));
+let ladoDos  = parseInt(prompt("ingresa lado dos del triangulo"));
+let ladoTres  = parseInt(prompt("ingresa lado tres del triangulo"));
+
+if(ladoUno==ladoDos && ladoDos==ladoTres){
+ console.log("el triangulo es equilatero")
+}
+else if (ladoUno==ladoDos || ladoDos==ladoTres || ladoUno==ladoTres){
+  console.log("el triangulo es isosceles")
+}
+else{
+  console.log("el triangulo es escaleno")
+
+}
+
+
+//-----------------------------------------------------------------------------------
+
