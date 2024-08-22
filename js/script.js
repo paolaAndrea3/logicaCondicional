@@ -76,3 +76,22 @@ else if (num1==num2){
 
 //------------------------------------------------------------------------------------
 
+
+//Ejercicio 6: Clasificación por Edad //
+
+let edadParaClasificar = prompt("ingrese su edad")
+
+if(edadParaClasificar < 12){
+console.log("Eres un niño")
+}
+else if (edadParaClasificar >=12 && edadParaClasificar <=17) {
+  console.log("Eres un adolecente")
+}
+else if (edadParaClasificar >=18 && edadParaClasificar <=64) {
+  console.log("Eres un adulto")
+}
+else if (edadParaClasificar >=65 ) {
+  console.log("Eres un adulto mayor")
+}
+
+//-----------------------------------------------------------------------------------
